@@ -1,0 +1,38 @@
+.dark div {
+    background-color: #303030;
+}
+
+.container {
+    width: 95%;
+    height: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.offer-image {
+    height: 300px;
+}
+
+.description {
+    padding: 50px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-sections {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin: 50px 0 50px 0;
+}
+
+.first {
+    font-family: “Playfair Display”, “Didot”, "Times New Roman", Times, serif;
+}
+
+.second {
+    font-family: "Impact ", sans-serif;
+}
