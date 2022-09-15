@@ -10,7 +10,10 @@ export default function TeamCard() {
   return (
     <>
       <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src={pic} />
+        <Card.Img
+          variant="top"
+          src="https://as1.ftcdn.net/v2/jpg/01/26/91/78/1000_F_126917812_XlWgkaV9f81Hde4wvmvJWM3huJRvy5EM.jpg"
+        />
         <Card.Body>
           <Card.Title>firstName Lastname</Card.Title>
           <Card.Text>lorem ipsum</Card.Text>

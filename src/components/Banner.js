@@ -25,8 +25,9 @@ export default function Partners() {
         </Card.Body>
         <Card.Img
           variant="bottom"
-          style={{ backgroundColor: "gray" }}
-          height={200}
+          // style={{ backgroundColor: "gray" }}
+          src="https://cdn4.vectorstock.com/i/1000x1000/76/53/group-coworkers-teamwork-concept-vector-27767653.jpg"
+          height={1000}
         />
       </Card>
     </>
