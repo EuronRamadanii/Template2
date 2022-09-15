@@ -2,6 +2,9 @@ import React from "react";
 import "../../App.css";
 import "../aboutUs.css";
 import Footer from "../Footer";
+import image1 from "../../assets/images/2ndProject.webp";
+import image2 from "../../assets/images/1stProject.webp";
+import image3 from "../../assets/images/3rdProject.webp";
 
 export default function AboutUs() {
   return (
@@ -14,7 +17,7 @@ export default function AboutUs() {
               <img
                 style={{ width: "100%" }}
                 class="offer-image"
-                src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+                src={image1}
                 alt=""
               />
               <div class="description">
@@ -52,7 +55,7 @@ export default function AboutUs() {
               <img
                 style={{ width: "100%" }}
                 class="offer-image"
-                src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+                src={image2}
                 alt=""
               />
             </div>
@@ -60,7 +63,7 @@ export default function AboutUs() {
               <img
                 style={{ width: "100%" }}
                 class="offer-image"
-                src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+                src={image3}
                 alt=""
               />
               <div class="description">
