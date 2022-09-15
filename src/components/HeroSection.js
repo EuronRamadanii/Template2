@@ -7,8 +7,12 @@ function HeroSection() {
   return (
     <div className="hero-container">
       <video src="/videos/video-1.mp4" autoPlay loop muted />
-      <h1>LOREM IPSUM</h1>
-      <p> Lorem Ipsum Sono losorem</p>
+      <h1>Where Dreams Come Home</h1>
+      <p>
+        {" "}
+        Our landing page template works on all devices, so you only have to set
+        it up once, and get beautiful results forever.
+      </p>
       {/* <div className="hero-btns">
         <Button
           className="btns"
